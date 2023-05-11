@@ -1,0 +1,21 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Contracts to support decentralized credit cards",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "Aisen D. Lopez-Ramos (BoricuaDev)",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
+    "@truffle/hdwallet-provider": "^2.1.10",
+    "dotenv": "^16.0.3",
+    "truffle": "^5.8.4",
+    "truffle-assertions": "^0.9.2"
+  }
+}
